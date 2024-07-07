@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create an Account</title>
+    <link rel="stylesheet" href="Signstyle.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="bg-gray">
+        <div class="flex flex-col items-center justify-center px-6 py-8 mx-auto">
+            <a href="#" class="flex items-center mb-6 text-xl font-semibold text-gray">
+                <img src="real-estate-house-logo-design-template-vector-illustration-png_269520.jpg" alt="Logo" class="logo">
+            </a>
+            <div class="container">
+                <div class="content">
+                    <h1 class="title">
+                        Create an account
+                    </h1>
+                    <form class="form" action="#">
+                        <div class="form-group">
+                            <label for="email" class="label">Your email</label>
+                            <input type="email" name="email" id="email" class="input" placeholder="name@company.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="password" class="label">Password</label>
+                            <input type="password" name="password" id="password" placeholder="••••••••" class="input" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="confirm-password" class="label">Confirm password</label>
+                            <input type="password" name="confirm-password" id="confirm-password" placeholder="••••••••" class="input" required>
+                        </div>
+                        <div class="checkbox-group">
+                            <input id="terms" aria-describedby="terms" type="checkbox" class="checkbox" required>
+                            <label for="terms" class="checkbox-label">I accept the <a class="terms-link" href="#">Terms and Conditions</a></label>
+                        </div>
+                        <button type="submit" class="button">Create an account</button>
+                        <p class="text">
+                            Already have an account? <a href="#" class="login-link">Login here</a>
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
+
