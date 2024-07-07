@@ -111,7 +111,7 @@ button:hover span{
 button:hover{
     border: none;
 }
-.login{
-    text-decoration: none;
+span a .login{
+    text-decoration-line: none;
 }
     
