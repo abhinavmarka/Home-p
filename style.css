@@ -112,14 +112,12 @@ button:hover{
     border: none;
 }
 #signup{
-    text-decoration-line: none;
-    font-color: red;
+    color: white;
     text-decoration: none;
 }
 #signin{
-    text-decoration-line: none;
+    color: white;
     text-decoration: none;
-    font-color: red;
-    
+  
 }
     
