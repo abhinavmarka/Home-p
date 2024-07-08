@@ -111,9 +111,15 @@ button:hover span{
 button:hover{
     border: none;
 }
-span a .login{
+#signup{
     text-decoration-line: none;
-    font-color: white;
+    font-color: red;
+    text-decoration: none;
 }
+#signin{
+    text-decoration-line: none;
+    text-decoration: none;
+    font-color: red;
+    
 }
     
