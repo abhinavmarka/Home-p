@@ -24,7 +24,8 @@
  .logo {
     width: 90px;
     cursor: pointer;
-    border-radius: 50%;
+    animation: rotateIn 1s ease-out;
+    border-radius: 60%;
 
 }
 
